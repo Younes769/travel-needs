@@ -3,6 +3,7 @@ import Logo from "./Logo";
 import Form from "./form";
 import PackingList from "./PackingList";
 import Stats from "./Stats";
+import Wish from "./Wish";
 
 function App() {
   const [items, setitems] = useState([]);
@@ -35,7 +36,10 @@ function App() {
       onDeleteItem={handleRemoveItem} 
       onClearItems={handleClearItems}/>
       <Stats items={items} />
+      <Wish></Wish>
+    
     </div>
+    
   );
 }
 export default App;
