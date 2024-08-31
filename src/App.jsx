@@ -3,7 +3,12 @@ import Logo from "./Logo";
 import Form from "./form";
 import PackingList from "./PackingList";
 import Stats from "./Stats";
-import Wish from "./Wish";
+
+import Nav from "./Nav";
+
+
+
+
 
 function App() {
   const [items, setitems] = useState([]);
@@ -17,26 +22,30 @@ function App() {
       )
     );
   }
-  
-  
+
   function handleRemoveItem(id) {
     setitems((items) => items.filter((item) => item.id !== id));
   }
   function handleClearItems() {
-    const confirmed = window.confirm("Are you sure you want to clear the list?");
-    if(confirmed) setitems([]);
+    const confirmed = window.confirm(
+      "Are you sure you want to clear the list?"
+    );
+    if (confirmed) setitems([]);
   }
   console.log("items:", items);
   return (
     <div>
       <Logo />
+      <Nav />
       <Form onAddItem={handleAddItem} />
-      <PackingList items={items}
-      onToggleItem={handleTogleItem}
-      onDeleteItem={handleRemoveItem} 
-      onClearItems={handleClearItems}/>
+      <PackingList
+        items={items}
+        onToggleItem={handleTogleItem}
+        onDeleteItem={handleRemoveItem}
+        onClearItems={handleClearItems}
+      />
       <Stats items={items} />
-      <Wish></Wish>
+      
     
     </div>
     

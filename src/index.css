@@ -14,7 +14,7 @@ body {
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
   color: #333;
-  background: linear-gradient(135deg, #ffdfc1, #ff9a8b); 
+  background: linear-gradient(135deg, #ffdfc1, #ff9a8b);
 }
 
 .app {
@@ -28,19 +28,19 @@ body {
 
 h1 {
   text-align: center;
-  background: #ff7e5f; 
+  background: #ff7e5f;
   color: #ffffff;
-  font-family: "Pacifico", cursive; 
+  font-family: "Pacifico", cursive;
   font-size: 3.5rem;
   font-weight: 400;
   padding: 1.5rem 0;
-  
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .add-form {
   background: #ffffff;
-  
+
   padding: 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -80,7 +80,7 @@ input:hover {
 }
 
 .add-form button {
-  background: #ff7e5f; 
+  background: #ff7e5f;
   color: #ffffff;
   border: none;
 }
@@ -89,7 +89,7 @@ input:hover {
   background: #ffffff;
   color: #333;
   padding: 1.5rem;
-  
+
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -131,7 +131,7 @@ input:hover {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background: #f0f8ff; 
+  background: #f0f8ff;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 1rem;
@@ -141,13 +141,13 @@ input:hover {
 }
 
 .list li:hover {
-  background: #e0f7fa; 
+  background: #e0f7fa;
 }
 
 input[type="checkbox"] {
   height: 1.8rem;
   width: 1.8rem;
-  accent-color: #ff7e5f; 
+  accent-color: #ff7e5f;
 }
 
 .list li button {
@@ -155,17 +155,17 @@ input[type="checkbox"] {
   background: none;
   border: none;
   font-size: 1.6rem;
-  color: #ff4d4d; 
+  color: #ff4d4d;
   padding: 0.5rem;
   transition: color 0.3s;
 }
 
 .list li button:hover {
-  color: #cc0000; 
+  color: #cc0000;
 }
 
 .stats {
-  background: #ff7e5f; 
+  background: #ff7e5f;
   color: #ffffff;
   text-align: center;
   font-weight: 700;
@@ -174,14 +174,3 @@ input[type="checkbox"] {
 }
 
 
-image{
-  border-image-width: ;
-}
-.logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
