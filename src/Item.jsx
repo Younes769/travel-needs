@@ -10,6 +10,7 @@ export default function Item({ item, onToggleItem, onDeleteItem }) {
       <span style={item.packed ? { textDecoration: "Line-through" } : {}}>
         {item.quantity} {item.description}
       </span>
+      <img src={item.img} alt={item.description} />
       <button onClick={() => onDeleteItem(item.id)}>❌</button>
     </li>
   );
