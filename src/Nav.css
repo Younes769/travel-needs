@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Pacifico&display=swap");
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
+  text-align: center;
+  background: #ff7e5f;
+  color: #ffffff;
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  font-weight: 400;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
