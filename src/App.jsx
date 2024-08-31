@@ -3,7 +3,11 @@ import Logo from "./Logo";
 import Form from "./form";
 import PackingList from "./PackingList";
 import Stats from "./Stats";
+
 import Nav from "./Nav";
+
+
+
 
 
 function App() {
@@ -41,7 +45,10 @@ function App() {
         onClearItems={handleClearItems}
       />
       <Stats items={items} />
+      
+    
     </div>
+    
   );
 }
 export default App;

@@ -1,7 +1,7 @@
 function Logo(){
     return (
       <div>
-       <h1>traveling list </h1>
+       your items needs
       </div>
     );
   }
